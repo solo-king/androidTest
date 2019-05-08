@@ -25,5 +25,6 @@ int main(int argc, char**argv)
     sp<MyThread> myThread = new MyThread();
     myThread->run("myThread");
     myThread->join();
+    ALOGD("hello world!!!");
     return 0;
 }
